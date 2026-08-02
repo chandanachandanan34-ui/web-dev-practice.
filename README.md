@@ -31,4 +31,4 @@ To explore or run any of the practice projects locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/chandanachandanan34-ui/web-dev-practice.git](https://github.com/chandanachandanan34-ui/web-dev-practice.git)
+   git clone [https://github.com/chandanachandanan34-ui/web-dev-practice.git]
