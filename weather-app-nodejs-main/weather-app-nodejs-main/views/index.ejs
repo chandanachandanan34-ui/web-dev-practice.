@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>🌦 Weather</h1>
+
+    <form method="GET" action="/" class="search">
+      <input type="text" name="city" placeholder="Enter city..." required>
+      <button type="submit">🔍</button>
+    </form>
+
+    <% if (weather) { %>
+      <div class="card">
+        <h2><%= weather.city %></h2>
+
+        <div class="temp">
+          <%= weather.temp %>°C
+        </div>
+
+        <div class="desc">
+          <%= weather.desc %>
+        </div>
+
+        <div class="details">
+          <span>💧 <%= weather.humidity %>%</span>
+          <span>🌬 <%= weather.wind %> km/h</span>
+        </div>
+      </div>
+    <% } %>
+
+  </div>
+
+</body>
+</html>
