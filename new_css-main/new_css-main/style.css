@@ -1,0 +1,20 @@
+*{
+    background-color: rgb(208, 152, 244);
+}
+h1{
+    font-size: 50px; 
+    color: rgb(160, 78, 19); 
+    text-align: center; 
+}
+pre{
+    color: rgb(231, 24, 152);
+}
+img{
+    border-width: 100%;
+    border: 5px solid white ;    
+}
+div{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Libre Baskerville", serif;
+}
